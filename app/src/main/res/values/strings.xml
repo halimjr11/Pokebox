@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pokebox</string>
+    <string name="pokemon_image">Pokemon Image</string>
+    <string name="abilities">Abilities</string>
+    <string name="statistics">Statistics</string>
+    <string name="attack">Attack</string>
+    <string name="hp">Hp</string>
+    <string name="sp_atk">Sp. Atk</string>
+    <string name="sp_def">Sp. Def</string>
+    <string name="you_have_no_pokemon">You have no pokemon!</string>
+    <string name="my_pokemon_list">My Pokemon List</string>
+    <string name="title_mypokemon">MyPokemon</string>
+</resources>

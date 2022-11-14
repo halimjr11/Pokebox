@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context=".view.detail.DetailActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/detail_image"
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                android:background="@color/grey"
+                android:contentDescription="@string/pokemon_image" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/detail_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-16dp"
+                android:padding="30dp"
+                app:cardCornerRadius="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/teal_200"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/poke_name"
+                        android:layout_width="150dp"
+                        android:layout_height="30dp"
+                        android:background="@color/grey"/>
+
+                    <TextView
+                        android:id="@+id/detail_stats_title"
+                        android:layout_width="100dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@color/grey"/>
+
+                    <LinearLayout
+                        android:id="@+id/stats_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal"
+                            android:weightSum="100">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="20"
+                                android:paddingEnd="15dp"
+                                android:background="@color/grey"/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:background="@color/grey"/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="70"
+                                android:background="@color/grey"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal"
+                            android:weightSum="100">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="20"
+                                android:paddingEnd="15dp"
+                                android:background="@color/grey"/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:background="@color/grey"/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="70"
+                                android:background="@color/grey"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal"
+                            android:weightSum="100">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="20"
+                                android:paddingEnd="15dp"
+                                android:background="@color/grey"/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:background="@color/grey"/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="70"
+                                android:background="@color/grey"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal"
+                            android:weightSum="100">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="20"
+                                android:paddingEnd="15dp"
+                                android:background="@color/grey"/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:background="@color/grey"/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="70"
+                                android:background="@color/grey"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal"
+                            android:weightSum="100">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="20"
+                                android:paddingEnd="15dp"
+                                android:background="@color/grey"/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:background="@color/grey"/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="70"
+                                android:background="@color/grey"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal"
+                            android:weightSum="100">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="20"
+                                android:paddingEnd="15dp"
+                                android:background="@color/grey"/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:background="@color/grey"/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="70"
+                                android:background="@color/grey"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:id="@+id/detail_ability_title"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_weight="90"
+                            android:background="@color/grey" />
+
+                        <TextView
+                            android:id="@+id/detail_type"
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_weight="10"
+                            android:background="@color/grey"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/abilities_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/detail_ability"
+                            android:layout_width="120dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="10"
+                            android:gravity="center"
+                            android:background="@color/grey"/>
+
+                    </LinearLayout>
+
+                    <android.widget.Button
+                        android:id="@+id/catch_button"
+                        android:layout_width="250dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:background="@color/grey"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
